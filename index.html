@@ -4,37 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f0ee9de15d.js" crossorigin="anonymous"></script>
     <title>Calculator</title>
     <link rel="Stylesheet" href="index.css" type="text/css">
 </head>
 <body>
     <div class="main-container">
-       <div class="rectangle">
-
-       </div>
+        <div class="sub-screen" id="secondScreen">
+         
+        </div>
+        
+        <div class="main-screen" id="screen">
+         
+        </div>
        <div class="grid-container">
-        <button class="grid-item1" id="del">C</button>
-       <button class="grid-item2" id="divide">/</button>
-       <button class="grid-item3" id="multiply">x</button>
-       <button class="grid-item4" id="backspace">icon</button>
-       <button class="grid-item5" id="7">7</button>
-       <button class="grid-item6" id="8">8</button>
-       <button class="grid-item7" id="9">9</button>
-       <button class="grid-item8" id="subtract">-</button>
-       <button class="grid-item9" id="4">4</button>
-       <button class="grid-item10" id="5">5</button>
-       <button class="grid-item11" id="6">6</button>
-       <button class="grid-item12" id="add">+</button>
-       <button class="grid-item13" id="1">1</button>
-       <button class="grid-item14" id="2">2</button>
-       <button class="grid-item15" id="3">3</button>
-       <button class="grid-item16" id="equalsTo">=</button>
-       <button class="grid-item17" id="modulus">%</button>
-       <button class="grid-item18" id="0">0</button>
-       <button class="grid-item19" id="point">.</button>
+       <button class="button"   id="del">C</button>
+       <button class="button" id="divide"><i class="fa-solid fa-divide"></i></button>
+       <button class="button" value="&times" id="multiply">*</button>
+       <button class="button" id="backspace"><i class="fa-solid fa-delete-left" style="color:pink"></i></button>
+       <button class="button" value="7" id="7">7</button>
+       <button class="button" value="8" id="8">8</button>
+       <button class="button" value="9" id="9">9</button>
+       <button class="button" value="-" id="subtract">-</button>
+       <button class="button" value="4" id="4">4</button>
+       <button class="button" value="5" id="5">5</button>
+       <button class="button" value="6" id="6">6</button>
+       <button class="button" value="+" id="add">+</button>
+       <button class="button" value="1" id="1">1</button>
+       <button class="button" value="2" id="2">2</button>
+       <button class="button" value="3" id="3">3</button>
+       <button class="button" value="=" id="equalsTo">=</button>
+       <button class="button" value="%" id="modulus">%</button>
+       <button class="button" value="0" id="0">0</button>
+       <button class="button" value="." id="point">.</button>
        </div>
        
     </div>
-    <script src="array.js"></script>
+    <script src="simpleCalculator.js"></script>
 </body>
 </html>
